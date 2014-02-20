@@ -1,0 +1,88 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  font-family: "adobe-garamond-pro", Garamond, Georgia, serif;
+  color: #000;
+}
+
+.float-breaker {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+header {
+  background: #111;
+  color: #fff;
+  padding: 14px 0;
+  margin-bottom: 28px;
+}
+
+h1,
+h2 .btn {
+  font-family: "adobe-garamond-pro", Garamond, Georgia, serif;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+h2 {
+  font-family: "proxima-nova-extra-condensed", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-size: 24px;
+}
+
+.build-wrapper h2:after,
+.result-wrapper h2:before {
+  content: '...';
+}
+
+#build-form {
+  margin-bottom: 18px;
+}
+
+#ffc-logo-wrapper {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+#ffc-logo-wrapper span {
+  display: block;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-top: 100px;
+  background: url(../img/first-flight.png) no-repeat;
+}
+
+textarea {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333;
+}
+
+.btn-hidden {
+  visibility: hidden;
+  width: 0;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+
+  #ffc-logo-wrapper span {
+    background-image: url(../img/first-flight@2x.png);
+    background-size: 100px 100px;
+  }
+
+}
